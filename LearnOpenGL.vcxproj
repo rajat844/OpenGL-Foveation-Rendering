@@ -140,6 +140,18 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\stb_image.h" />
+    <ClInclude Include="Source\shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shaders\shaderSource.fs" />
+    <None Include="Source\Shaders\shaderSource.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\awesomeface.png" />
+    <Image Include="Resources\container.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
